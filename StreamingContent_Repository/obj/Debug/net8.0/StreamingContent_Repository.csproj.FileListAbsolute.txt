@@ -1,0 +1,11 @@
+C:\Users\Sathish\ELEVENFIFTYPROJECTS\codingFoundations\dotnetProjects\StreamingContent\streamingContent_Repository\obj\Debug\net8.0\StreamingContent_Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sathish\ELEVENFIFTYPROJECTS\codingFoundations\dotnetProjects\StreamingContent\streamingContent_Repository\obj\Debug\net8.0\StreamingContent_Repository.AssemblyInfoInputs.cache
+C:\Users\Sathish\ELEVENFIFTYPROJECTS\codingFoundations\dotnetProjects\StreamingContent\streamingContent_Repository\obj\Debug\net8.0\StreamingContent_Repository.AssemblyInfo.cs
+C:\Users\Sathish\ELEVENFIFTYPROJECTS\codingFoundations\dotnetProjects\StreamingContent\streamingContent_Repository\obj\Debug\net8.0\StreamingContent_Repository.csproj.CoreCompileInputs.cache
+C:\Users\Sathish\ELEVENFIFTYPROJECTS\codingFoundations\dotnetProjects\StreamingContent\streamingContent_Repository\bin\Debug\net8.0\StreamingContent_Repository.deps.json
+C:\Users\Sathish\ELEVENFIFTYPROJECTS\codingFoundations\dotnetProjects\StreamingContent\streamingContent_Repository\bin\Debug\net8.0\StreamingContent_Repository.dll
+C:\Users\Sathish\ELEVENFIFTYPROJECTS\codingFoundations\dotnetProjects\StreamingContent\streamingContent_Repository\bin\Debug\net8.0\StreamingContent_Repository.pdb
+C:\Users\Sathish\ELEVENFIFTYPROJECTS\codingFoundations\dotnetProjects\StreamingContent\streamingContent_Repository\obj\Debug\net8.0\StreamingContent_Repository.dll
+C:\Users\Sathish\ELEVENFIFTYPROJECTS\codingFoundations\dotnetProjects\StreamingContent\streamingContent_Repository\obj\Debug\net8.0\refint\StreamingContent_Repository.dll
+C:\Users\Sathish\ELEVENFIFTYPROJECTS\codingFoundations\dotnetProjects\StreamingContent\streamingContent_Repository\obj\Debug\net8.0\StreamingContent_Repository.pdb
+C:\Users\Sathish\ELEVENFIFTYPROJECTS\codingFoundations\dotnetProjects\StreamingContent\streamingContent_Repository\obj\Debug\net8.0\ref\StreamingContent_Repository.dll
