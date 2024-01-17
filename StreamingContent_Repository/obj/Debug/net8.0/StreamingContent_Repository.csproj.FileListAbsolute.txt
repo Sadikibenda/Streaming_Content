@@ -9,3 +9,4 @@ C:\Users\Sathish\ELEVENFIFTYPROJECTS\codingFoundations\dotnetProjects\StreamingC
 C:\Users\Sathish\ELEVENFIFTYPROJECTS\codingFoundations\dotnetProjects\StreamingContent\streamingContent_Repository\obj\Debug\net8.0\refint\StreamingContent_Repository.dll
 C:\Users\Sathish\ELEVENFIFTYPROJECTS\codingFoundations\dotnetProjects\StreamingContent\streamingContent_Repository\obj\Debug\net8.0\StreamingContent_Repository.pdb
 C:\Users\Sathish\ELEVENFIFTYPROJECTS\codingFoundations\dotnetProjects\StreamingContent\streamingContent_Repository\obj\Debug\net8.0\ref\StreamingContent_Repository.dll
+c:\Users\Sathish\ELEVENFIFTYPROJECTS\codingFoundations\dotnetProjects\StreamingContent\streamingContent_Repository\obj\Debug\net8.0\StreamingContent_Repository.sourcelink.json
