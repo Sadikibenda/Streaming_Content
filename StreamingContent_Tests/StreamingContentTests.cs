@@ -56,4 +56,5 @@ public class StreamingContentTests
         // Assert => We're calling our asssertions finally
         Assert.AreEqual(expected, actual);
     }
+
 }

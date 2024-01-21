@@ -112,3 +112,4 @@ C:\Users\Sathish\ELEVENFIFTYPROJECTS\codingFoundations\dotnetProjects\StreamingC
 C:\Users\Sathish\ELEVENFIFTYPROJECTS\codingFoundations\dotnetProjects\StreamingContent\StreamingContent_Tests\obj\Debug\net8.0\StreamingContent_Tests.pdb
 C:\Users\Sathish\ELEVENFIFTYPROJECTS\codingFoundations\dotnetProjects\StreamingContent\StreamingContent_Tests\obj\Debug\net8.0\StreamingContent_Tests.genruntimeconfig.cache
 C:\Users\Sathish\ELEVENFIFTYPROJECTS\codingFoundations\dotnetProjects\StreamingContent\StreamingContent_Tests\obj\Debug\net8.0\ref\StreamingContent_Tests.dll
+C:\Users\Sathish\ELEVENFIFTYPROJECTS\codingFoundations\dotnetProjects\StreamingContent\StreamingContent_Tests\obj\Debug\net8.0\StreamingContent_Tests.sourcelink.json
