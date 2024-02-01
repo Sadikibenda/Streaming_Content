@@ -1,15 +1,15 @@
 
 public class ShowContentRepository
 {
-    protected readonly List<Show> _contentDirectory = new List<Show>();
+    protected readonly List<Show> _showDirectory = new List<Show>();
 
     //Create
 
     public bool AddShow(Show show)
     {
-        int startingCount = _contentDirectory.Count;
-        _contentDirectory.Add(show);
-        bool wasAdded = (_contentDirectory.Count > startingCount)? true : false;
+        int startingCount = _showDirectory.Count;
+        _showDirectory.Add(show);
+        bool wasAdded = (_showDirectory.Count > startingCount)? true : false;
 
         return wasAdded;
     }
@@ -17,12 +17,12 @@ public class ShowContentRepository
     //Read
     public List<Show> GetAllShows()
     {
-        return _contentDirectory;
+        return _showDirectory;
     }
 
     public Show GetShowbyTitle(string title)
     {
-        foreach(Show show in _contentDirectory)
+        foreach(Show show in _showDirectory)
         {
             if(show.Title.ToLower() == title.ToLower())
             {
@@ -33,30 +33,41 @@ public class ShowContentRepository
     }
 
     //update
-    public bool updateShow(string originalTitle, Show newshow)
+    public void updateShow(string updateinput, string updateshowinput, string updateData)
     {
-        Show oldshow = GetShowbyTitle(originalTitle);
-        if(oldshow != null)
-        {
-            oldshow.Title = newshow.Title;
-            oldshow.Description = newshow.Description;
-            oldshow.StarRating = newshow.StarRating;
-            oldshow.MaturityRating = newshow.MaturityRating;
-            oldshow.TypeOfGenre = newshow.TypeOfGenre;
+       Show oldshow = _showDirectory[Convert.ToInt32(updateinput)];
 
-            return true;
-        }
-        else
+        switch (updateshowinput)
         {
-            return false;
-        }
-        
+            case "1":
+                Console.WriteLine("update Title");
+                oldshow.Title = updateData;
+                break;
+
+            case "2":
+                Console.WriteLine("update Description");
+                oldshow.Description = updateData;
+                break;
+
+            case "3":
+                Console.WriteLine("update StartRating");
+                oldshow.StarRating = Convert.ToDouble(updateData);
+                break;
+        } 
+
+        _showDirectory[Convert.ToInt32(updateinput)] = oldshow;
+
     }
 
     //Delete
     public bool DeleteShow(Show existingshow)
     {
-        bool deleteResult = _contentDirectory.Remove(existingshow);
+        bool deleteResult = _showDirectory.Remove(existingshow);
         return deleteResult;
+    }
+
+    public void DeleteMovieById( string input)
+    {
+        _showDirectory.RemoveAt(Convert.ToInt32(input));
     }
 }

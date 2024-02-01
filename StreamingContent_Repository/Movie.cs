@@ -7,7 +7,6 @@ public class Movie : StreamingContent
     // If you or the students think of any other properties
     // that a movie would have, but not a show, you can add them
     
-    public Movie (){}
     public Movie ( double runtime, string director, string title, string description, double starRating, MaturityRating maturityRating, GenreType typeofgenre)
     {
         this.RunTime = runtime;
@@ -17,5 +16,5 @@ public class Movie : StreamingContent
         StarRating = starRating;
         MaturityRating = maturityRating;
         TypeOfGenre = typeofgenre;
-    }
+    } 
 }

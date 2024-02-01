@@ -7,7 +7,8 @@ public class StreamingContent
    public MaturityRating MaturityRating {get; set;}
    //public bool IsFamilyFriendly {get; set;}
 
-   public GenreType TypeOfGenre {get; set;}
+   public GenreType TypeOfGenre {get; set;}             // get: read property value  (select)
+                                                       // set: assign property value (Insert)
 
     public StreamingContent() {} 
    public StreamingContent(string title, string description, MaturityRating maturityRating, double stars, GenreType typeofgenre)

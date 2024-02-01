@@ -1,8 +1,9 @@
 
+
 public class MovieContentRepository
 {
     //Create
-    protected readonly List<Movie> _movieDirectory = new List<Movie>();
+    private readonly List<Movie> _movieDirectory = new List<Movie>();
     public bool AddMovie(Movie movie)
     {
         int startingCount = _movieDirectory.Count;
@@ -31,23 +32,29 @@ public class MovieContentRepository
     }
 
     //update
-    public bool updateMovie(string originalTitle, Movie newmovie)
+    public void updateMovie(string updateinput, string updateMovieinput, string updateData)
     {
-        Movie oldmovie = GetMoviebyTitle(originalTitle);
-        if(oldmovie != null)
-        {
-            oldmovie.Title = newmovie.Title;
-            oldmovie.Description = newmovie.Description;
-            oldmovie.StarRating = newmovie.StarRating;
-            oldmovie.MaturityRating = newmovie.MaturityRating;
-            oldmovie.TypeOfGenre = newmovie.TypeOfGenre;
+        Movie oldmovie = _movieDirectory[Convert.ToInt32(updateinput)];
 
-            return true;
-        }
-        else
+        switch (updateMovieinput)
         {
-            return false;
-        }
+            case "1":
+                Console.WriteLine("update Title");
+                oldmovie.Title = updateData;
+                break;
+
+            case "2":
+                Console.WriteLine("update Description");
+                oldmovie.Description = updateData;
+                break;
+
+            case "3":
+                Console.WriteLine("update StartRating");
+                oldmovie.StarRating = Convert.ToDouble(updateData);
+                break;
+        } 
+
+        _movieDirectory[Convert.ToInt32(updateinput)] = oldmovie;
         
     }
 
@@ -56,5 +63,20 @@ public class MovieContentRepository
     {
         bool deleteResult = _movieDirectory.Remove(existingmovie);
         return deleteResult;
+    }
+
+    public void DeleteMovieById(string input)
+    {
+         _movieDirectory.RemoveAt(Convert.ToInt32(input));
+    }
+
+    public void AddMovie()
+    {
+        throw new NotImplementedException();
+    }
+
+    public bool DeleteMovie(object existingmovie)
+    {
+        throw new NotImplementedException();
     }
 }
