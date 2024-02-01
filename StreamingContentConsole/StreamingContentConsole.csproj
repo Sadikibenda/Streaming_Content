@@ -8,6 +8,6 @@
   </PropertyGroup>
 
 <ItemGroup>
-    <ProjectReference Include="..\streamingContent_Repository\StreamingContent_Repository.csproj" />
+ <ProjectReference Include="..\StreamingContent_Repository\StreamingContent_Repository.csproj"/>
 </ItemGroup>
 </Project>

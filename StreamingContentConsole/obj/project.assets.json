@@ -17,8 +17,8 @@
   "libraries": {
     "StreamingContent_Repository/1.0.0": {
       "type": "project",
-      "path": "../streamingContent_Repository/StreamingContent_Repository.csproj",
-      "msbuildProject": "../streamingContent_Repository/StreamingContent_Repository.csproj"
+      "path": "../StreamingContent_Repository/StreamingContent_Repository.csproj",
+      "msbuildProject": "../StreamingContent_Repository/StreamingContent_Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -53,8 +53,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Sathish\\ELEVENFIFTYPROJECTS\\codingFoundations\\dotnetProjects\\StreamingContent\\streamingContent_Repository\\StreamingContent_Repository.csproj": {
-              "projectPath": "C:\\Users\\Sathish\\ELEVENFIFTYPROJECTS\\codingFoundations\\dotnetProjects\\StreamingContent\\streamingContent_Repository\\StreamingContent_Repository.csproj"
+            "C:\\Users\\Sathish\\ELEVENFIFTYPROJECTS\\codingFoundations\\dotnetProjects\\StreamingContent\\StreamingContent_Repository\\StreamingContent_Repository.csproj": {
+              "projectPath": "C:\\Users\\Sathish\\ELEVENFIFTYPROJECTS\\codingFoundations\\dotnetProjects\\StreamingContent\\StreamingContent_Repository\\StreamingContent_Repository.csproj"
             }
           }
         }
